@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+.header .modal-item.modal {
+  top: 2rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.header .navbar {
+  padding: 0.5rem 2rem;
+  background-color: #cfe6da;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  font-weight: 300;
+  color: #1d1e3c;
+  transition: 0.3s;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1d1e3c;
+  transition: 0.3s;
+}
+
+.header .navbar-light .navbar-nav .active > .nav-link,
+.header .navbar-light .navbar-nav .nav-link.active,
+.header .navbar-light .navbar-nav .nav-link.show,
+.header .navbar-light .navbar-nav .show > .nav-link {
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.header .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.header .modal-item .modal-dialog .modal-content {
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #cfe6da;
+  border-radius: 0px;
+}
+
+.header .responsive li a {
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+/* END HEADER */
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+.beranda .carousel-inner .carousel-item .carousel-caption{
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+  color: white;
+}
+
+.beranda .hero .hero-title h1{
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.beranda .hero .hero-title h1 h2{
+  font-size: 2.5vw;
+  font-weight:200;
+}
+
+/* .container .row {
+  margin-top: 5rem;
+} */
+
+.sejarah .blog-profile .btn {
+ background-color: #aacada;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+/* .blog-profile .btn:hover {
+  background-color: #aacada;
+  border: #1d1e3c;
+  color: #ffffff;
+} */
+
+.blog-pendaftaran .btn {
+  background-color: #aacada;
+  color: #ffffff;
+  border-radius: 20px;
+}
+/* 
+.blog-pendaftaran .btn:hover {
+  background-color: #93c5ab;
+} */
+
+.list-footer .row {
+  padding-top: 1rem;
+}
+
+.img-testimoni {
+  width: 100px;
+}
+
+.name-profil {
+  font-size: 22px;
+  font-weight: 500;
+  color: #6e91a3;
+}
+
+.carousel-item .message {
+  font-size: 25px;
+  color: #757272;
+  font-weight: 400;
+}
+
+.judul-testimoni .title .caption {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222522;
+}
+
+.judul-testimoni .title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #6e91a3;
+}
+
+/* footer */
+
+.footer {
+  background-color: #cfe6da;
+}
+.footer .list-space {
+  margin-bottom: 10px;
+}
+
+.footer .footer-text-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #252422;
+  /* margin-bottom: 1.5rem; */
+}
+
+.footer .list-menu {
+  font-size: 16px;
+  font-weight: 300;
+  color: #1d1e3c;
+  text-decoration: none !important;
+}
+
+.footer .list-menu:hover {
+  font-size: 16px;
+  color: #1d1e3c;
+  font-weight: 600;
+}
+
+.footer hr.hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer .border-color {
+  color: #252422;
+}
+
+.footer .footer-info-space {
+  padding-top: 3rem;
+}
+
+.footer .list-footer {
+  padding: 2rem 1rem 3rem 1rem;
+}
+
+.footer .info-footer {
+  padding: 0 1rem 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .header .modal-item .modal-dialog {
+    max-width: 95%;
+    border-radius: 12px;
+  }
+
+  .header .navbar {
+    padding: 0.25rem 2rem;
+  }
+
+  .footer .list-footer {
+    padding: 1rem 2rem 3rem 2rem;
+  }
+
+  /* .footer .info-footer {
+    padding: 0 2rem 1rem;
+  } */
+}
+
+@media (min-width: 768px) {
+  .header .navbar {
+    padding: 1rem 4rem;
+  }
+
+.footer .list-footer {
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+  /* .footer .info-footer {
+    padding: 0 4rem 1rem;
+  } */
+}
+
+@media (min-width: 992px) {
+ .header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .header .navbar {
+    padding: 0.5rem 6rem;
+  }
+
+  .header .hero {
+    padding: 3rem 6rem 5rem;
+  }
+
+  .header .title-text-big {
+    font-size: 3.75rem;
+    line-height: 1.2;
+  }
+
+.footer .list-footer {
+    padding: 2rem 6rem 2rem 6rem;
+  }
+
+  /* .footer .info-footer {
+    padding: 0 0.5rem 1rem;
+  } */
+}
+
+/* @media (min-width: 1200px) {
+  .blog-profile {
+    padding-left: 1rem;
+  }
+} */
+
+@media (max-width: 980px) {
+  .content .card-btn-space {
+    width: 100%;
+  }
+  .name-profil {
+    font-size: 18px;
+  }
+  .carousel-item .message {
+    font-size: 20px;
+  }
+  /* .judul-testimoni .title .caption {
+    font-size: 22px; */
+}
+
+@media (max-width: 576px) {
+  .name-profil {
+    font-size: 16px;
+  }
+  .carousel-item .message {
+    font-size: 16px;
+  }
+ 
+  .content .text-title {
+    font-size: 25px;
+  }
+
+  .footer .d-flex p {
+    font-size: 14px;
+  }
+
+  .col-lg-6 .ilustration {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* .row {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  } */
+}
+
+@media (max-width: 768px) {
+  .name-profil {
+    font-size: 20px;
+  }
+  .carousel-item .message {
+    font-size: 18px;
+  }
+}
